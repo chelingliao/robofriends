@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './Card';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Card />, document.getElementById('root'));
 
 serviceWorker.unregister();
